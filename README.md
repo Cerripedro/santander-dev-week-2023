@@ -1,6 +1,8 @@
 # santander Dev Week 2023
 
-##classDiagram
+## Diagrama de Classes
+```mermaid
+classDiagram
   class User {
     - name: String
     - account: Account
@@ -35,3 +37,4 @@
   User --> Feature
   User --> Card
   User --> News
+```
